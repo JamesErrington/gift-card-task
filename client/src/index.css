@@ -1,0 +1,87 @@
+.app {
+  width: 100vw;
+}
+
+.main {
+  min-height: calc(100vh - 102px);
+}
+
+.footer {
+  position: absolute !important;
+  border-radius: 0 !important;
+  width: 100vw;
+}
+
+.footer .github {
+  color: white !important;
+}
+
+main {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.card-grid-container {
+  margin-top: 14px;
+}
+
+header {
+  justify-content: center;
+}
+
+header > .left,
+header > .right {
+  width: 150px;
+  justify-content: center;
+}
+
+.header-title::before {
+  display: none;
+}
+
+.add-card-form-inputs-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-card-form-inputs {
+  width: 55%;
+}
+
+.add-card-form-image-upload {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.add-card-image-container {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-message-container {
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.gift-card-extra {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+}
+
+.gift-card-extra > div {
+  margin-bottom: 0 !important;
+}
+
+.gift-card-content {
+  padding-top: 0.7em !important;
+  padding-bottom: 0.7em !important;
+}
